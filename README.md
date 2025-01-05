@@ -23,7 +23,7 @@ pip install pygame
 ```
 
 ## How to Play
-1. Run the game by executing `main.py` (or whichever file you have your game code in).
+1. Run the game by executing `main.py`.
 2. Press **Spacebar** to make the bird flap.
 3. Try to avoid colliding with the pipes and the ground.
 4. The game ends when the bird collides with an obstacle, and you can restart by pressing **R**.
@@ -43,8 +43,6 @@ The game uses the following images for its assets:
 - **assets/pipe_bottom.png**: Bottom pipe image
 - **assets/game_over.png**: Game over screen image
 - **assets/start.png**: Start game screen image
-
-Please ensure these assets are placed in the correct `assets/` folder.
 
 ## Code Structure
 - **Bird**: A class that controls the bird, including its animation, movement, and collision logic.
